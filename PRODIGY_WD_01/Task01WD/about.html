@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cheat-sheets.html">Cheat Sheets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section about-background">
+        <div class="overlay"></div>
+        <div class="content">
+            <h2>About Us</h2>
+            <p>Welcome to our creative and inspiring landing page. We are dedicated to providing you with the best user experience and information about various topics.</p>
+            <p>Our team consists of passionate individuals who are committed to delivering high-quality content and services.</p>
+            <img src="images/about-image.jpg" alt="About Image" class="about-image">
+            <button id="aboutButton" class="cta-button primary">About This Landing Page</button>
+
+            <!-- Feedback Form -->
+            <form class="feedback-form">
+                <h3>Contact Us</h3>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit" class="cta-button primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="popup" id="popup">
+        <span class="close-button">&times;</span>
+        <h1>Welcome!</h1>
+    
+        <p><strong>The Landing Page is nothing butIt's where a visitor “lands” after they click 
+            on a link in an email, or ads from Google, Bing, YouTube, Facebook, Instagram, 
+            Twitter, or similar places on the web. Unlike web pages, which typically have many goals
+            and encourage exploration, landing pages are designed with a single focus or goal, 
+            known as a call to action (or CTA, for short).</strong></p><br>
+        <br>
+        <p>Thank you for visiting our landing page. We hope you find it informative and enjoyable!</p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
